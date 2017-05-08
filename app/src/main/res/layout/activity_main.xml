@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="text.beiw.xutils2.MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="德玛西亚"
+                android:textSize="20sp"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="诺克萨斯"
+                android:textSize="20sp"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="艾欧尼亚"
+                android:textSize="20sp"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="比尔吉沃特"
+                android:textSize="20sp"
+                android:button="@null"/>
+            <RadioButton
+                android:id="@+id/rb5"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:text="弗雷尔卓德"
+                android:textSize="20sp"
+                android:button="@null"/>
+        </RadioGroup>
+    </HorizontalScrollView>
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_below="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>
